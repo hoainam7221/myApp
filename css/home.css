@@ -1,0 +1,50 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'PT Serif', serif;
+    padding: 0;
+    background: whitesmoke;
+    line-height: 22px;
+
+    
+}
+.flash{
+    overflow: hidden;
+    
+    top: 0;
+    left: 0;
+    right: 0;
+    padding: 16px 700px;
+    z-index: 9;
+    width: 100%;
+    color: red;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    background-color: #f8f8f8;
+}
+.sale{
+    margin: 0px;
+    margin-left: 4px;
+    padding: 3px 10px;
+    border-radius: 5px;
+    background: rgb(51, 51, 51);
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 1.5;
+    text-transform: uppercase;
+    height: 30px;
+    color: white;
+}
+.box{
+    box-sizing: border-box;
+    margin: 0 auto;
+    position: relative;
+    overflow: hidden;
+    list-style: none;
+    padding: 0;
+    z-index: 1;
+}
